@@ -14,6 +14,12 @@ app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
+// Sanitasi URL jika terdapat newline / spasi (%0A / %20) di ujung URL
+app.use((req, res, next) => {
+  req.url = req.url.trim().replace(/[\r\n]+$/, '');
+  next();
+});
+
 // Root Endpoint - Informasi API
 app.get('/', (req, res) => {
   res.status(200).json({
