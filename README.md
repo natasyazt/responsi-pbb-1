@@ -6,8 +6,8 @@ REST API sederhana untuk layanan pencatatan dan pengelolaan peminjaman buku perp
 
 ## 🔗 Link Hasil Deployment Vercel
 
-- **URL Deployment Vercel**: `https://your-project-name.vercel.app` *(Ganti dengan link Vercel Anda setelah proses deploy)*
-- **Contoh Filter Status Terlambat**: `https://your-project-name.vercel.app/loans?status=Terlambat`
+- **URL Deployment Vercel**: `https://responsi-pbb-1.vercel.app/`
+- **Contoh Filter Status Terlambat**: `https://responsi-pbb-1.vercel.app/loans?status=Terlambat`
 
 ---
 
